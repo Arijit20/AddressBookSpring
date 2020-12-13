@@ -1,0 +1,37 @@
+2020-12-14 00:08:29.276  INFO 12664 --- [restartedMain] c.c.a.AddressBookSpringApplication       : Starting AddressBookSpringApplication using Java 13.0.2 on LAPTOP-F4J8SDAU with PID 12664 (D:\javaworkspace\AddressBookSpring\target\classes started by ARIJIT DEY in D:\javaworkspace\AddressBookSpring)
+2020-12-14 00:08:29.291  INFO 12664 --- [restartedMain] c.c.a.AddressBookSpringApplication       : The following profiles are active: dev
+2020-12-14 00:08:29.535  INFO 12664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-14 00:08:29.536  INFO 12664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-14 00:08:30.684  INFO 12664 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-14 00:08:31.010  INFO 12664 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 312 ms. Found 1 JPA repository interfaces.
+2020-12-14 00:08:32.037  INFO 12664 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-14 00:08:32.048  INFO 12664 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-14 00:08:32.048  INFO 12664 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-14 00:08:32.051  INFO 12664 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2020-12-14 00:08:32.052  INFO 12664 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-14 00:08:32.052  INFO 12664 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-14 00:08:32.059  INFO 12664 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-14 00:08:32.509  INFO 12664 --- [restartedMain] o.a.c.c.C.[.[localhost].[/address]       : Initializing Spring embedded WebApplicationContext
+2020-12-14 00:08:32.509  INFO 12664 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2972 ms
+2020-12-14 00:08:33.027  INFO 12664 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 00:08:33.601  INFO 12664 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2020-12-14 00:08:34.718  INFO 12664 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-14 00:08:35.690  INFO 12664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-14 00:08:35.704  WARN 12664 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-14 00:08:37.299  INFO 12664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-14 00:08:37.384  INFO 12664 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-14 00:08:43.232  INFO 12664 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 00:08:43.242  INFO 12664 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 00:08:43.435  INFO 12664 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-14 00:08:44.485  WARN 12664 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 00:08:44.961  INFO 12664 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 00:08:47.407  INFO 12664 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/address'
+2020-12-14 00:08:47.455  INFO 12664 --- [restartedMain] c.c.a.AddressBookSpringApplication       : Started AddressBookSpringApplication in 18.675 seconds (JVM running for 23.625)
+2020-12-14 00:08:47.467  INFO 12664 --- [restartedMain] c.c.a.AddressBookSpringApplication       : emp spring app started
+2020-12-14 00:09:26.988  INFO 12664 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/address]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 00:09:26.989  INFO 12664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-14 00:09:26.990  INFO 12664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-14 00:21:27.186  INFO 12664 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-14 00:21:27.188  INFO 12664 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 00:21:27.194  INFO 12664 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-14 00:21:27.300  INFO 12664 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
