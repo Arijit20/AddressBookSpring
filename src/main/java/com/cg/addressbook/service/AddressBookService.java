@@ -32,13 +32,10 @@ public class AddressBookService implements IAddressBookService{
 
 	@Override
 	public AddressBookDTO createContact(AddressBookDTO addressBookDTO) {
-		if(Objects.nonNull(addressBookDTO.getFirstName())) {
 		AddressBook addressBook = new AddressBook(addressBookDTO.getFirstName(), addressBookDTO.getLastNmae(),
 				  addressBookDTO.getAddress(), addressBookDTO.getCity(), addressBookDTO.getState(),
 				  addressBookDTO.getZip(), addressBookDTO.getPhoneNo(), addressBookDTO.getEmail());
 		return new AddressBookDTO(addressBookRepository.save(addressBook));
-		}
-		throw new AddressBookException("Invalid data");
 	}
 
 	@Override
@@ -70,7 +67,7 @@ public class AddressBookService implements IAddressBookService{
 		return addressBookRepository.findById(id)
 				.map(contact -> {addressBookRepository.deleteById(contact.getId());
 				return new AddressBookDTO(contact);
-		}).orElseThrow(() -> new AddressBookException("Contact not found"));
+		}).orElseThrow(() -> new AddressBookException("Id not present"));
 	}
 
 }
