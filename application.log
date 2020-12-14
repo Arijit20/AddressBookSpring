@@ -1,37 +1,73 @@
-2020-12-14 00:08:29.276  INFO 12664 --- [restartedMain] c.c.a.AddressBookSpringApplication       : Starting AddressBookSpringApplication using Java 13.0.2 on LAPTOP-F4J8SDAU with PID 12664 (D:\javaworkspace\AddressBookSpring\target\classes started by ARIJIT DEY in D:\javaworkspace\AddressBookSpring)
-2020-12-14 00:08:29.291  INFO 12664 --- [restartedMain] c.c.a.AddressBookSpringApplication       : The following profiles are active: dev
-2020-12-14 00:08:29.535  INFO 12664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-12-14 00:08:29.536  INFO 12664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-12-14 00:08:30.684  INFO 12664 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-12-14 00:08:31.010  INFO 12664 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 312 ms. Found 1 JPA repository interfaces.
-2020-12-14 00:08:32.037  INFO 12664 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2020-12-14 00:08:32.048  INFO 12664 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2020-12-14 00:08:32.048  INFO 12664 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
-2020-12-14 00:08:32.051  INFO 12664 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
-2020-12-14 00:08:32.052  INFO 12664 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
-2020-12-14 00:08:32.052  INFO 12664 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
-2020-12-14 00:08:32.059  INFO 12664 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
-2020-12-14 00:08:32.509  INFO 12664 --- [restartedMain] o.a.c.c.C.[.[localhost].[/address]       : Initializing Spring embedded WebApplicationContext
-2020-12-14 00:08:32.509  INFO 12664 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2972 ms
-2020-12-14 00:08:33.027  INFO 12664 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-12-14 00:08:33.601  INFO 12664 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
-2020-12-14 00:08:34.718  INFO 12664 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2020-12-14 00:08:35.690  INFO 12664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2020-12-14 00:08:35.704  WARN 12664 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
-2020-12-14 00:08:37.299  INFO 12664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2020-12-14 00:08:37.384  INFO 12664 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
-2020-12-14 00:08:43.232  INFO 12664 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-12-14 00:08:43.242  INFO 12664 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-12-14 00:08:43.435  INFO 12664 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2020-12-14 00:08:44.485  WARN 12664 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-12-14 00:08:44.961  INFO 12664 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2020-12-14 00:08:47.407  INFO 12664 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/address'
-2020-12-14 00:08:47.455  INFO 12664 --- [restartedMain] c.c.a.AddressBookSpringApplication       : Started AddressBookSpringApplication in 18.675 seconds (JVM running for 23.625)
-2020-12-14 00:08:47.467  INFO 12664 --- [restartedMain] c.c.a.AddressBookSpringApplication       : emp spring app started
-2020-12-14 00:09:26.988  INFO 12664 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/address]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-12-14 00:09:26.989  INFO 12664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2020-12-14 00:09:26.990  INFO 12664 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2020-12-14 00:21:27.186  INFO 12664 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2020-12-14 00:21:27.188  INFO 12664 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2020-12-14 00:21:27.194  INFO 12664 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2020-12-14 00:21:27.300  INFO 12664 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-15 00:10:00.034  INFO 5316 --- [restartedMain] c.c.a.AddressBookSpringApplication       : Starting AddressBookSpringApplication using Java 13.0.2 on LAPTOP-F4J8SDAU with PID 5316 (D:\javaworkspace\AddressBookSpring\target\classes started by ARIJIT DEY in D:\javaworkspace\AddressBookSpring)
+2020-12-15 00:10:00.059  INFO 5316 --- [restartedMain] c.c.a.AddressBookSpringApplication       : The following profiles are active: dev
+2020-12-15 00:10:00.158  INFO 5316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-15 00:10:00.159  INFO 5316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-15 00:10:00.999  INFO 5316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-15 00:10:01.067  INFO 5316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2020-12-15 00:10:01.733  INFO 5316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-15 00:10:01.742  INFO 5316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-15 00:10:01.743  INFO 5316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-15 00:10:01.746  INFO 5316 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2020-12-15 00:10:01.747  INFO 5316 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-15 00:10:01.747  INFO 5316 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-15 00:10:01.753  INFO 5316 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-15 00:10:01.864  INFO 5316 --- [restartedMain] o.a.c.c.C.[.[localhost].[/address]       : Initializing Spring embedded WebApplicationContext
+2020-12-15 00:10:01.865  INFO 5316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1703 ms
+2020-12-15 00:10:02.010  INFO 5316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-15 00:10:02.054  INFO 5316 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2020-12-15 00:10:02.163  INFO 5316 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2020-12-15 00:10:02.256  INFO 5316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-15 00:10:02.260  WARN 5316 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-15 00:10:02.419  INFO 5316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-15 00:10:02.431  INFO 5316 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-15 00:10:03.040  INFO 5316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-15 00:10:03.050  INFO 5316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-15 00:10:03.086  INFO 5316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-15 00:10:03.387  WARN 5316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-15 00:10:03.497  INFO 5316 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-15 00:10:04.121  INFO 5316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/address'
+2020-12-15 00:10:04.135  INFO 5316 --- [restartedMain] c.c.a.AddressBookSpringApplication       : Started AddressBookSpringApplication in 4.631 seconds (JVM running for 5.925)
+2020-12-15 00:10:04.141  INFO 5316 --- [restartedMain] c.c.a.AddressBookSpringApplication       : emp spring app started
+2020-12-15 00:10:23.667  INFO 5316 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/address]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-15 00:10:23.668  INFO 5316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-15 00:10:23.670  INFO 5316 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-15 00:11:18.119  INFO 5316 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-15 00:11:18.120  INFO 5316 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-15 00:11:18.124  INFO 5316 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-12-15 00:11:18.135  INFO 5316 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-12-15 00:11:18.262  INFO 5316 --- [restartedMain] c.c.a.AddressBookSpringApplication       : Starting AddressBookSpringApplication using Java 13.0.2 on LAPTOP-F4J8SDAU with PID 5316 (D:\javaworkspace\AddressBookSpring\target\classes started by ARIJIT DEY in D:\javaworkspace\AddressBookSpring)
+2020-12-15 00:11:18.262  INFO 5316 --- [restartedMain] c.c.a.AddressBookSpringApplication       : The following profiles are active: dev
+2020-12-15 00:11:18.473  INFO 5316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-12-15 00:11:18.482  INFO 5316 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2020-12-15 00:11:18.619  INFO 5316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-15 00:11:18.620  INFO 5316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-15 00:11:18.620  INFO 5316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-15 00:11:18.620  INFO 5316 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.25] using APR version [1.7.0].
+2020-12-15 00:11:18.620  INFO 5316 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-15 00:11:18.621  INFO 5316 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-15 00:11:18.621  INFO 5316 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-15 00:11:18.654  INFO 5316 --- [restartedMain] o.a.c.c.C.[.[localhost].[/address]       : Initializing Spring embedded WebApplicationContext
+2020-12-15 00:11:18.654  INFO 5316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 389 ms
+2020-12-15 00:11:18.701  INFO 5316 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-15 00:11:18.707  INFO 5316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-12-15 00:11:18.707  WARN 5316 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-15 00:11:18.713  INFO 5316 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-12-15 00:11:18.714  INFO 5316 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2020-12-15 00:11:18.774  INFO 5316 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-15 00:11:18.774  INFO 5316 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-15 00:11:18.789  INFO 5316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-12-15 00:11:18.879  WARN 5316 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-15 00:11:18.926  INFO 5316 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-15 00:11:19.013  INFO 5316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/address'
+2020-12-15 00:11:19.026  INFO 5316 --- [restartedMain] c.c.a.AddressBookSpringApplication       : Started AddressBookSpringApplication in 0.803 seconds (JVM running for 80.815)
+2020-12-15 00:11:19.030  INFO 5316 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-12-15 00:11:19.031  INFO 5316 --- [restartedMain] c.c.a.AddressBookSpringApplication       : emp spring app started
+2020-12-15 00:11:40.690  INFO 5316 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[localhost].[/address]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-15 00:11:40.691  INFO 5316 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-15 00:11:40.692  INFO 5316 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2020-12-15 00:11:40.816  WARN 5316 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.cg.addressbook.dto.AddressBookDTO> com.cg.addressbook.controller.AddressBookController.updateContact(com.cg.addressbook.dto.AddressBookDTO) with 3 errors: [Field error in object 'addressBookDTO' on field 'address': rejected value []; codes [NotEmpty.addressBookDTO.address,NotEmpty.address,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.address,address]; arguments []; default message [address]]; default message [Address cant be empty]] [Field error in object 'addressBookDTO' on field 'city': rejected value []; codes [NotEmpty.addressBookDTO.city,NotEmpty.city,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.city,city]; arguments []; default message [city]]; default message [City cant be empty]] [Field error in object 'addressBookDTO' on field 'lastNmae': rejected value [null]; codes [NotEmpty.addressBookDTO.lastNmae,NotEmpty.lastNmae,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addressBookDTO.lastNmae,lastNmae]; arguments []; default message [lastNmae]]; default message [Last name cant be emoty]] ]
+2020-12-15 00:11:54.610  INFO 5316 --- [RMI TCP Connection(14)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-12-15 00:11:55.090  INFO 5316 --- [RMI TCP Connection(14)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-15 00:11:55.091  INFO 5316 --- [RMI TCP Connection(14)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-12-15 00:11:55.093  INFO 5316 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-12-15 00:11:55.102  INFO 5316 --- [RMI TCP Connection(14)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

@@ -44,7 +44,7 @@ public class AddressBookController {
 		return ResponseEntity.status(HttpStatus.CREATED).body(addressBookService.createContact(addressBookDTO));
 	}
 	
-	@PutMapping("/update/{id}")
+	@PutMapping("/update")
 	public ResponseEntity<AddressBookDTO> updateContact(@Valid @RequestBody AddressBookDTO addressBookDTO){
 		return ResponseEntity.status(HttpStatus.OK).body(addressBookService.updateContact(addressBookDTO));
 	}

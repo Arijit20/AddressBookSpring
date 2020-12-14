@@ -12,9 +12,11 @@ public class AddressBookDTO {
 	
 	    private Long id;
 	    
+	    @NotEmpty(message = "First name cant be emoty")
 	    @Pattern(regexp = "^[A-Z]{1}[a-zA-Z]{2,}$", message = "Incorrect First Name")
 		private String firstName;
 	    
+	    @NotEmpty(message = "Last name cant be emoty")
 	    @Pattern(regexp = "^[A-Z]{1}[a-zA-Z]{2,}$", message = "Incorrect Last Name")
 		private String lastNmae;
 	    

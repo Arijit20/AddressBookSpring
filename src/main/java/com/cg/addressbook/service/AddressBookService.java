@@ -1,7 +1,6 @@
 package com.cg.addressbook.service;
 
 import java.util.List;
-import java.util.Objects;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,24 +40,17 @@ public class AddressBookService implements IAddressBookService{
 	@Override
 	public AddressBookDTO updateContact(AddressBookDTO addressBookDTO) {
 		return addressBookRepository.findById(addressBookDTO.getId()).map(contact -> {
-			if(Objects.nonNull(addressBookDTO.getFirstName())) {
-				contact.setFirstName(addressBookDTO.getFirstName());
-			}if(Objects.nonNull(addressBookDTO.getLastNmae())) {
-				contact.setLastNmae(addressBookDTO.getLastNmae());
-			}if(Objects.nonNull(addressBookDTO.getAddress())) {
-				contact.setAddress(addressBookDTO.getAddress());
-			}if(Objects.nonNull(addressBookDTO.getCity())) {
-				contact.setCity(addressBookDTO.getCity());
-			}if(Objects.nonNull(addressBookDTO.getState())) {
-				contact.setState(addressBookDTO.getState());
-			}if(Objects.nonNull(addressBookDTO.getZip())) {
-				contact.setZip(addressBookDTO.getZip());
-			}if(Objects.nonNull(addressBookDTO.getPhoneNo())) {
-				contact.setPhoneNo(addressBookDTO.getPhoneNo());
-			}if(Objects.nonNull(addressBookDTO.getEmail())) {
-				contact.setEmail(addressBookDTO.getEmail());
-			}
-			return new AddressBookDTO(addressBookRepository.save(contact));
+		
+		contact.setFirstName(addressBookDTO.getFirstName());
+		contact.setLastNmae(addressBookDTO.getLastNmae());
+		contact.setAddress(addressBookDTO.getAddress());
+		contact.setCity(addressBookDTO.getCity());
+		contact.setState(addressBookDTO.getState());
+		contact.setZip(addressBookDTO.getZip());
+		contact.setPhoneNo(addressBookDTO.getPhoneNo());
+		contact.setEmail(addressBookDTO.getEmail()); 
+		
+		return new AddressBookDTO(addressBookRepository.save(contact));
 		}).orElseThrow(() -> new AddressBookException("Contact not found"));
 	}
 
